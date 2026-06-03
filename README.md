@@ -20,6 +20,13 @@ The experimental data was collected from 30 volunteers performing six standard d
 
 Time-domain and frequency-domain features were extracted using a 2.56-second sliding window, resulting in a high-dimensional feature vector.
 
+Due to GitHub's file size limits, the dataset is hosted externally. You can download the raw sensor data files (`X_train.txt`, `X_test.txt`, etc.) from the link below:
+
+* **Download Link:** https://pan.baidu.com/s/1o4Wi8JA2BrfbKNiOA8vmVw
+* **Extraction Code:** 0704
+
+Please download and place the `.txt` files in the root directory before executing the scripts.
+
 ## ⚙️ Methodology
 
 Our analytical framework consists of three main modules:
