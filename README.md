@@ -49,9 +49,9 @@ Our analytical framework consists of three main modules:
 
 ```text
 ├── prepare_the_data.py   # Data standardization and preprocessing script
-├── Q1.py                 # PCA dimensionality reduction & Top 20 Feature Selection
-├── Q2.py                 # LightGBM classification model training & evaluation
-├── Q3.py                 # Gaussian noise injection & robustness analysis
+├── feature_selection.py     # PCA dimensionality reduction & Top 20 Feature Selection
+├── model_training.py        # LightGBM classification model training & evaluation
+├── robustness_analysis.py   # Gaussian noise injection & robustness analysis
 ├── X_train.txt           # Training set features
 ├── Y_train.txt           # Training set labels
 ├── X_test.txt            # Test set features
